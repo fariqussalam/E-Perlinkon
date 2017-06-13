@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPutih"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textViewJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengaduan Anda"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewNoPengaduan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor Pengaduan"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewIsiNoPengaduan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewIsiEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewNoHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. HP"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewIsiNoHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewNoKtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. KTP"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewIsiNoKtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewJenisPengaduan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Pengaduan"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewIsiJenisPengaduan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewJenisTuntutan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Tuntutan"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+        <TextView
+            android:id="@+id/textViewIsiJenisTuntutan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorHitam"/>
+
+            <TextView
+                android:id="@+id/textViewDetailPengaduan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isi Pengaduan"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorHitam"/>
+
+            <TextView
+                android:id="@+id/textViewIsiDetailPengaduan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorHitam"/>
+
+            <TextView
+                android:id="@+id/textViewStatusPengaduan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status Pengaduan"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorHitam"/>
+
+            <TextView
+                android:id="@+id/textViewIsiStatusPengaduan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorHitam"/>
+
+            <TextView
+                android:id="@+id/textViewSolusiPengaduan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solusi Pengaduan"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorHitam"/>
+
+            <TextView
+                android:id="@+id/textViewIsiSolusiPengaduan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorHitam"/>
+
+            <TextView
+                android:id="@+id/textViewWaktuPengaduan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Waktu Pengaduan"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorHitam"/>
+
+            <TextView
+                android:id="@+id/textViewIsiWaktuPengaduan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorHitam"/>
+
+            <Button
+                android:id="@+id/buttonOkPengaduan"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="OK" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

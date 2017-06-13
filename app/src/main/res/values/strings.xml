@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">E-Complaint</string>
+    <string name="cek_status">Cek Status</string>
+    <string name="lapor_pengaduan">Lapor Pengaduan</string>
+    <string name="title_activity_idpengaduan">idpengaduan</string>
+    <string name="kembali">Kembali</string>
+    <string name="kirim">Kirim</string>
+    <string name="lihat_status_pelaporan">Lihat Status Pelaporan</string>
+    <string name="no_pengaduan">No Pengaduan</string>
+    <string name="button">Tentang Kami</string>
+    <string name="title_activity_lapor_keluhan_v2">laporKeluhanV2</string>
+</resources>

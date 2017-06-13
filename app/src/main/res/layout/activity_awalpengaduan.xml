@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="com.example.fariq.ecomplaint.awalpengaduan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="IDENTITAS PELAPOR"
+        android:textColor="@color/colorTeal"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/space" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Email"
+        android:textColor="@color/colorHitam"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/space"
+        android:layout_alignLeft="@+id/space"
+        android:layout_alignStart="@+id/space"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorHitam"
+        android:background="@color/colorPutih"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextEmail"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/editTextNohp"
+        android:layout_alignStart="@+id/editTextNohp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingStart="10dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="No HP"
+        android:textColor="@color/colorHitam"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignLeft="@+id/editTextEmail"
+        android:layout_alignStart="@+id/editTextEmail"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorHitam"
+        android:background="@color/colorPutih"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextNohp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingStart="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="No Identitas"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/colorHitam"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/editTextNohp"
+        android:layout_alignLeft="@+id/space2"
+        android:layout_alignStart="@+id/space2" />
+
+        <EditText
+            android:id="@+id/editTextNoId"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorHitam"
+            android:background="@color/colorPutih"
+            android:layout_alignEnd="@+id/editTextNohp"
+            android:layout_alignLeft="@+id/space2"
+            android:layout_alignRight="@+id/editTextNohp"
+            android:layout_alignStart="@+id/space2"
+            android:layout_below="@+id/textView15"
+            android:paddingStart="10dp"
+            android:singleLine="true" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/space2"
+        android:layout_below="@+id/editTextNoId"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foto Kartu Identitas"
+        android:id="@+id/buttonKtp"
+        android:layout_below="@+id/space2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorButton"
+        android:textSize="19sp"
+        android:textColor="@color/colorPutih"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonKtp"
+        android:layout_marginTop="21dp"
+        android:background="@color/colorPutih"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Input Pelaporan"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorButton"
+        android:textSize="19sp"
+        android:textColor="@color/colorPutih"/>
+
+    <Button
+        android:id="@+id/buttonBatal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_below="@+id/buttonInput"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorBtnCek"
+        android:textSize="19sp"
+        android:textColor="@color/colorPutih"/>
+
+</RelativeLayout>
+    </ScrollView>

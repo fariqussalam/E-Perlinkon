@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@drawable/bg"
+    tools:context="com.example.fariq.ecomplaint.MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonView"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorPutih"
+        android:textSize="19sp"
+        android:text="Laporkan Pengaduan"
+        android:onClick="laporKeluhan"/>
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:background="@color/colorBtnCek"
+        android:text="Cek Laporan"
+        android:textColor="@color/colorPutih"
+        android:textSize="19sp"
+        android:onClick="lihatKeluhan"
+        android:layout_marginTop="16dp"
+        android:layout_alignBottom="@+id/buttonABout"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp" />
+
+    <Button
+        android:id="@+id/buttonABout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="aboutUs"
+        android:text="@string/button"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/colorPutih"
+        android:textSize="19sp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/depan"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/buttonAdd"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorHitam"
+        android:text="Powered By\nDINAS PERDAGANGAN\nKOTA MAKASSAR" />
+
+
+</RelativeLayout>
